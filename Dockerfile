@@ -1,5 +1,5 @@
-# Utiliser une image Node officielle légère
-FROM node:18-alpine
+# Utiliser une image Node officielle plus récente (Vite nécessite Node 20.19+ ou 22.12+)
+FROM node:22-alpine
 
 # Définir le répertoire de travail
 WORKDIR /app
